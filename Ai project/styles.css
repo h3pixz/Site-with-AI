@@ -1,0 +1,181 @@
+/* Стилизация общих элементов */
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; /* Используем более красивый шрифт */
+    margin: 0;
+    padding: 0;
+    background-color: #333; /* Нежный фон */
+}
+
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo {
+    margin-right: 20px; /* Добавляем небольшой отступ справа */
+}
+.logo img {
+    max-width: 100px;
+    height: auto;
+}
+
+.GPTphoto{
+    width: 350px;
+    height: 250px;
+    border-radius: 20px;
+    margin-top: 10px;
+}
+
+.Drugoe{
+    width: 450px;
+    height: 250px;
+    border-radius: 20px;
+    margin-top: 10px;
+    margin-left: 10px;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+    display: flex;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 10px;
+}
+
+nav ul li a {
+    color: #cbc2a0; /* Цвет текста кнопок */
+    text-decoration: none;
+    background-color: rgba(255, 255, 255, 0.1); /* Белый цвет с полупрозрачностью */
+    padding: 10px 15px;
+    border-radius: 20px;
+    transition: background-color 0.3s;
+}
+
+nav ul li a:hover {
+    background-color: rgba(255, 255, 255, 0.3); /* Цвет при наведении на кнопку */
+}
+
+#about a, #skills a, #widgets a {
+    background-color: #ffffff; /* Цвет фона кнопок */
+    padding: 8px 15px; /* Отступы внутри кнопок */
+    border-radius: 5px; /* Закругление краев кнопок */
+    margin-right: 10px; /* Отступ между кнопками */
+}
+
+section {
+    padding: 20px;
+    background-color: #ffc296; /* Фон блоков */
+    border-radius: 15px; /* Закругление краев блоков */
+    margin-bottom: 20px; /* Добавляем отступ между блоками */
+}
+
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 1px;
+    bottom: 0;
+    width: 100%;
+    height: 20%;
+    text-align: center;
+    border-radius: 15px;
+    font-size: 26px;
+    font-family: 'Arial Black', sans-serif;
+}
+
+
+/* Стилизация заголовков и текста */
+h1, h2 {
+    color: #333;
+}
+
+/* Стилизация ссылок */
+a {
+    color: #007bff;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+.open-ai {
+    color: #ff0000; /* Белый цвет текста */
+    font-family: 'Arial Black', sans-serif; /* Другой шрифт */
+    margin-left: -720px; /* Добавляем небольшой отступ слева */
+    line-height: 100px; /* Устанавливаем высоту строки для вертикального выравнивания */
+}
+
+.open-ai h1 {
+    color: #fff; /* Белый цвет текста */
+    font-family: 'Arial Black', sans-serif; /* Другой шрифт */
+    font-size: 46px; /* Размер шрифта */
+    margin: 0; /* Убираем внешние отступы */
+}
+
+#skills p{
+    margin-top: 10px;
+    width: 50%;
+}
+
+.Text{
+    float:left;
+}
+
+.OpenAI{
+    float:right;
+    width: 300px;
+    height: 300px;
+    margin-right: 200px;
+    margin-top: -400px;
+    border-radius: 50%;
+}
+
+
+
+.otvety {
+    flex:1;
+    float: right;
+    
+    
+}
+
+.AI{
+    float:right;
+    width: 500px;
+    height: auto;
+    margin-right: 100px;
+    margin-top: -400px;
+    border-radius: 26px;
+}
+
+.newimg{
+    float:right;
+    width:500px;
+    height: auto;
+    margin-right: 100px;
+    margin-top: -325px;
+    border-radius: 26px;
+}
+
+.cht{
+    float:right;
+    width:400px;
+    height: auto;
+    margin-right: 140px;
+    margin-top: -325px;
+    border-radius: 26px;
+}
+
+.ttext{
+    text-align: center;
+}
+
+
